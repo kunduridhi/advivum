@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AdVivum - Discover Science</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #1a202c;
+      font-size: 18px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      color: #047857;
+      font-size: 28px;
+    }
+    header button {
+      background: none;
+      border: none;
+      color: #047857;
+      font-weight: bold;
+      margin-left: 10px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    .btn {
+      background-color: #047857;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .hero, .discover {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+    .hero img, .discover img, .impact img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .tags span {
+      background-color: #d1fae5;
+      color: #047857;
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 16px;
+      margin: 5px;
+      display: inline-block;
+    }
+    .center {
+      text-align: center;
+    }
+    h2, h3 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 18px;
+    }
+    input[type="text"] {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AdVivum</h1>
+    <div>
+      <button>Log in</button>
+      <button class="btn">Join for free</button>
+    </div>
+  </header>
+
+  <section class="hero" style="background-color: #f9fafb;">
+    <div style="max-width: 500px;">
+      <h2>Discover scientific innovation and stay connected to the future of research</h2>
+      <button class="btn" style="margin-top: 20px;">Join for free</button>
+    </div>
+    <img src="img/back.jpg" alt="Scientist at work">
+  </section>
+
+  <section class="discover">
+    <img src="/discover-science.png" alt="Scientific icons" style="max-width: 300px;">
+    <div style="max-width: 500px;">
+      <h3>Discover cutting-edge research</h3>
+      <p>Access millions of publications and stay up to date with advancements in your field.</p>
+      <input type="text" placeholder="Search publications" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+      <div class="tags" style="margin-top: 20px;">
+        <span>Biotech</span><span>Neuroscience</span><span>AI in Medicine</span><span>Genetics</span><span>Clinical Trials</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="impact" style="background-color: #f3f4f6;">
+    <div class="center">
+      <h3>Measure your impact</h3>
+      <p>Track who's reading your research and explore detailed analytics on your work’s reach.</p>
+      <img src="/impact-analytics.png" alt="Graphs and charts" style="margin-top: 20px; max-width: 600px;">
+    </div>
+  </section>
+
+  <section class="center">
+    <h3>Join a global community of innovators and researchers</h3>
+    <button class="btn">Join for free</button>
+  </section>
+</body>
+</html>
